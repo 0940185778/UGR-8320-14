@@ -3,20 +3,23 @@
   <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="/src/css/styles.css" />
     <title>aboute me page</title>
   </head>
   <body>
-    <div>
-      <h1>aboute <span>me</span></h1>
-      <figure>
+    <section class="about-me">
+    <div id="about">
+    <div id="pic">
+      <h1 id="abt">about <span>me</span></h1>
+  
         <img
           src="img/photo_2023-11-23_19-49-08.jpg"
           alt="picture"
          
         >
-        <figcaption>biniyams photo</figcaption>
-      </figure>
-      <p>
+        <div id="intro">
+      
+      <p class>
         My name is <strong>Biniyam Assefa</strong>, and I am a software engineer
         student at Addis Ababa University. I was born and raised in
         <em>Woldia</em>, a city in the Amhara Region of Ethiopia. Woldia is
@@ -37,12 +40,17 @@
         extracurricular activities, such as sports, music, and clubs. I am proud
         of my achievements so far, and I hope to accomplish more in the future.
       </p>
-      <a href="/resource/cv.pdf" download="Biniyam's_Resume"
-        >Download resume
+      <a class="resume" href="/resource/cv.pdf" download="Biniyam's_Resume"
+        >Download Resume
       </a>
     </div>
-    <div>
-      <h2>Education</h2>
+  </div>
+    </div>
+    
+   <div id="story">
+    <div class="row">
+      <div class="box">
+      <h2 class="headings">Education</h2>
       <p>
         I start to learn when i was 3 years old , and i get in Kg school and
         after 3 year i got in primery school. and i learnt their until i finish
@@ -52,7 +60,14 @@
         finished i joined Addis Ababa university and know i am a 3rd year
         software engineering student.
       </p>
-      <h2>Hobbies</h2>
+    </div>
+  </div>
+</div> 
+<div id="story">
+  <div class="row">
+    <div class="box">
+
+      <h2 class="headings">Hobbies</h2>
       <p>
         I dream of living a happy and fulfilling life, with a balance between
         work and leisure, and a harmony between body and mind. I dream of
@@ -63,8 +78,14 @@
         proficient and creative software engineer, who can design and develop
         innovative and useful applications for various domains and platforms.
       </p>
+    </div>
+  </div>
+</div> 
 
-      <h2>Skills</h2>
+      <div id="story">
+        <div class="row">
+          <div class="box">
+      <h2 class="headings">Skills</h2>
       <ul>
         <li>
           <strong>hard skill</strong>
@@ -86,7 +107,13 @@
           </p>
         </li>
       </ul>
-      <h2>Experience</h2>
+    </div>
+  </div>
+</div> 
+<div id="story">
+  <div class="row">
+    <div class="box">
+      <h2 class="headings">Experience</h2>
       <p>
         in <strong>Life</strong> i have lot of Experience just like
         <em>Communication</em> and <em> argumentation</em> are two important
@@ -102,6 +129,10 @@
         challenges and opportunities.
       </p>
     </div>
+    </div>
+  </div> 
+
+</section>
     <section id="footer">
       <div class="footer container">
         <div class="brand">
