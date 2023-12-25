@@ -3,73 +3,85 @@
   <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="../css/style.css">
     <title>portfolio home</title>
   </head>
-  <body>
+  <body class=" bg-black">
     <header>
-      <nav>
-        <img src="img/download.webp" alt="portfolio logo" class="logo" >
-        <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about_me.html">ABOUT ME</a></li>
-          <li><a href="travel.html">TRAVEL</a></li>
-          <li><a href="voluntary_activity.html">VOLUNTARY ACIVITY</a></li>
-          <li><a href="contact_info.html">CONTACT INFO</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a href="#" class="navbar-brand"><img src="img/download.webp" alt="portfolio logo" class="logo" ></a>
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#btn" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse text-white" id="btn">
+          <ul class="navbar-nav ms-auto p-4 ">
+            <li class="navbar-item p-3"><a class="text-white text-center nav-link" href="index.html">HOME</a></li>
+            <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="about_me.html">ABOUT ME</a></li>
+            <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="travel.html">TRAVEL</a></li>
+            <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="voluntary_activity.html">VOLUNTARY ACIVITY</a></li>
+            <li class="navbar-item p-3"  ><a class="text-white nav-link text-center" href="contact_info.html">CONTACT INFO</a></li>
+          </ul> 
+      </div>
+      </div>
       </nav>
     </header>
-    <div class="details">
-      <h1>I'm Biniyam <span>Assefa</span></h1>
+      <div class="d-flex flex-wrap justify-content-center p-5">
+        <div class="text-white">
+      <h1>I'm Biniyam <span class=" text-warning">Assefa</span></h1>
       <h2>Software Enigineer Student</h2>
       <p>
-        This ismy official profile and portfolio webiste to show all Details on my life and experiance in school and out side school.
+        This ismy official profile and portfolio webiste to show all <br> Details on my life and experiance in school and out side school.
       </p>
+    </div>
       <div class="image">
-        <img src="img/photo_2023-11-23_19-43-31.jpg" alt="home photo" >
+        <img class="img-fluid" src="img/home_page.png" alt="home photo" >
       </div>
     </div>
-    <div>
+      <div class="video p-4">
       <video src="resource/video_intoro.mp4" controls></video>
-      <p>
+      <p class="text-white">
         If Your browser doesn't support this video. Here is a
-        <a href="resource/LalibelaEthiopia(ላሊበላ).mp4">link to the video</a>
+        <a href="resource/video_intoro.mp4">link to the video</a>
         instead.
       </p>
     </div>
-    <section id="footer">
-      <div class="footer container">
-        <div class="brand">
-          <h3><span>B</span>iniyam <span>A</span>ssefa</h3>
-        </div>
-        <div class="social-icon">
-          <div class="social-item">
-            <a href="Biniyam_Assefa"
-              ><img
-                src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
-                alt="facebook"
-              >
-              facebook</a
-            >
-          </div>
-          <div class="social-item">
-            <a href="binyamasseafa648"
-              ><img
-                src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
-                alt="instagram"
-              >instagram</a
-            >
-          </div>
-          <div class="social-item">
-            <a href="https://t.me/Binimerci777"
-              ><img
-                src="https://img.icons8.com/?size=80&id=112159&format=png"
-                alt="telegram"
-              >telegram</a
-            >
-          </div>
-        </div>
-        <p>Copyright © 2023 Biniyam. All rights reserved</p>
+    <section class=" bg-dark w-100">
+      <div class="brand">
+        <h3 class="text-white text-center"><span class="text-warning">B</span>iniyam <span class="text-warning">A</span>ssefa</h3>
       </div>
+      <div class="d-flex justify-content-center">
+        <div class="social-item">
+          <a href="Biniyam_Assefa"
+            ><img
+              src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
+              alt="facebook"
+            >
+            facebook</a
+          >
+        </div>
+        <div class="social-item">
+          <a href="binyamasseafa648"
+            ><img
+              src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+              alt="instagram"
+            >instagram</a
+          >
+        </div>
+        <div class="social-item">
+          <a href="https://t.me/Binimerci777"
+            ><img
+              src="https://img.icons8.com/?size=80&id=112159&format=png"
+              alt="telegram"
+            >telegram</a
+          >
+        </div>
+      </div>
+        <div>
+        <p class="text-white text-center mb-0">Copyright © 2023 Biniyam. All rights reserved</p>
+       </div>
     </section>
+    <script src="../css/bootstrap.bundle.js"></script>
   </body>
 </html>

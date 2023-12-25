@@ -3,11 +3,33 @@
   <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="../css/style.css">
     <title>voluntary activity</title>
   </head>
-  <body>
-    <div>
-      <h1>voluntary activity</h1>
+  <body class=" bg-black">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a href="#" class="navbar-brand"><img src="img/download.webp" alt="portfolio logo" class="logo" ></a>
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#btn" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse text-white" id="btn">
+        <ul class="navbar-nav ms-auto p-4 ">
+          <li class="navbar-item p-3"><a class="text-white text-center nav-link" href="index.html">HOME</a></li>
+          <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="about_me.html">ABOUT ME</a></li>
+          <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="travel.html">TRAVEL</a></li>
+          <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="voluntary_activity.html">VOLUNTARY ACIVITY</a></li>
+          <li class="navbar-item p-3"  ><a class="text-white nav-link text-center" href="contact_info.html">CONTACT INFO</a></li>
+        </ul> 
+      </div>
+      </div>
+      </nav>
+    </header>
+    <div class="d-flex flex-wrap flex-row-reverse justify-content-center ">
+    <div class="col-10 col-md-5 text-white p-4">
+      <h1>voluntary <span class=" text-warning">activity</span></h1>
       <p>
         Volunteering is a rewarding activity that allows me to help others and
         make a positive impact in the world. I have participated in various
@@ -26,19 +48,21 @@
         them with companionship, care, and comfort. I also helped to organize
         recreational and social activities for them to enjoy.
       </p>
-      <div>
+    </div>
+      <div class="col-10 col-md-5 p-4">
         <video src="resource/mekedonia.mp4" controls></video>
-        <p>
+        <p class="text-white">
           If Your browser doesn't support this video. Here is a
           <a href="resource/mekedonia.mp4">link to the video</a>
           instead.
         </p>
       </div>
-      <div>
-        <div>
+    </div>
+      <div class="d-flex justify-content-center gap-5 p-4 flex-wrap">
+        <div class="text-center text-black card col-10 col-md-3 bg-info">
           <h5>mekedonoya charity</h5>
           <figure>
-            <img
+            <img width="300px"
               src="img/mekedonoya.jpg"
               alt="
           mekedonoya"
@@ -46,14 +70,16 @@
             <figcaption>picture when viisit mekedoniya</figcaption>
           </figure>
         </div>
-        <div>
+
+        <div class="text-center text-black card col-10 col-md-3 bg-info">
           <h5>gergesenon Charity</h5>
           <figure>
             <img src="img/gergesenon.jpg" alt="gergesenon" >
             <figcaption>picture when visit gergesenon</figcaption>
           </figure>
         </div>
-        <div>
+
+        <div class="text-center text-black card col-10 col-md-3 bg-info">
           <h5>Abebechi Gubena charity</h5>
           <figure>
             <img src="img/abebchi_gubena.webp" alt="abebechi gubena charity" >
@@ -62,42 +88,46 @@
             </figcaption>
           </figure>
         </div>
+        
       </div>
     </div>
-    <section id="footer">
-      <div class="footer container">
-        <div class="brand">
-          <h3><span>B</span>iniyam <span>A</span>ssefa</h3>
-        </div>
-        <div class="social-icon">
-          <div class="social-item">
-            <a href="Biniyam_Assefa"
-              ><img
-                src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
-                alt="facebook"
-              >
-              facebook</a
-            >
-          </div>
-          <div class="social-item">
-            <a href="binyamasseafa648"
-              ><img
-                src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
-                alt="instagram"
-              >instagram</a
-            >
-          </div>
-          <div class="social-item">
-            <a href="https://t.me/Binimerci777"
-              ><img
-                src="https://img.icons8.com/?size=80&id=112159&format=png"
-                alt="telegram"
-              >telegram</a
-            >
-          </div>
-        </div>
-        <p>Copyright © 2023 Biniyam. All rights reserved</p>
+
+    <section class=" bg-dark w-100">
+      <div class="brand">
+        <h3 class="text-white text-center"><span class="text-warning">B</span>iniyam <span class="text-warning">A</span>ssefa</h3>
       </div>
+      <div class="d-flex justify-content-center">
+        <div class="social-item">
+          <a href="Biniyam_Assefa"
+            ><img
+              src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
+              alt="facebook"
+            >
+            facebook</a
+          >
+        </div>
+        <div class="social-item">
+          <a href="binyamasseafa648"
+            ><img
+              src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+              alt="instagram"
+            >instagram</a
+          >
+        </div>
+        <div class="social-item">
+          <a href="https://t.me/Binimerci777"
+            ><img
+              src="https://img.icons8.com/?size=80&id=112159&format=png"
+              alt="telegram"
+            >telegram</a
+          >
+        </div>
+      </div>
+        <div>
+        <p  class="text-white text-center bg-dark mb-0">Copyright © 2023 Biniyam. All rights reserved</p>
+    
+       </div>
     </section>
+    <script src="../css/bootstrap.bundle.js"></script>
   </body>
 </html>

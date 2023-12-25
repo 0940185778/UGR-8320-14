@@ -3,11 +3,35 @@
   <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="../css/style.css">
     <title>aboute me page</title>
   </head>
-  <body>
+  <body class=" bg-black">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a href="#" class="navbar-brand"><img src="img/download.webp" alt="portfolio logo" class="logo" ></a>
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#btn" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse text-white" id="btn">
+          <ul class="navbar-nav ms-auto p-4 ">
+            <li class="navbar-item p-3"><a class="text-white text-center nav-link" href="index.html">HOME</a></li>
+            <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="about_me.html">ABOUT ME</a></li>
+            <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="travel.html">TRAVEL</a></li>
+            <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="voluntary_activity.html">VOLUNTARY ACIVITY</a></li>
+            <li class="navbar-item p-3"  ><a class="text-white nav-link text-center" href="contact_info.html">CONTACT INFO</a></li>
+          </ul> 
+      </div>
+      </div>
+      </nav>
+    </header>
     <div>
-      <h1>aboute <span>me</span></h1>
+      <h1 class="text-center p-4 text-white">aboute <span class=" text-warning">me</span></h1>
+    </div>
+    <div class=" d-flex flex-wrap justify-content-center">
+      <div class="col-10 col-md-5 p-4 ">
       <figure>
         <img
           src="img/photo_2023-11-23_19-49-08.jpg"
@@ -16,7 +40,9 @@
         >
         <figcaption>biniyams photo</figcaption>
       </figure>
-      <p>
+      </div>
+     <div class="p-4 col-10 col-md-5">
+      <p class="text-white">
         My name is <strong>Biniyam Assefa</strong>, and I am a software engineer
         student at Addis Ababa University. I was born and raised in
         <em>Woldia</em>, a city in the Amhara Region of Ethiopia. Woldia is
@@ -40,9 +66,11 @@
       <a href="/resource/cv.pdf" download="Biniyam's_Resume"
         >Download resume
       </a>
+      </div>
     </div>
-    <div>
-      <h2>Education</h2>
+      <div class="d-flex p-4 gap-2 flex-wrap justify-content-center">
+        <div class=" p-4 card bg-success col-10 col-md-3 ">
+        <h2>Education</h2>
       <p>
         I start to learn when i was 3 years old , and i get in Kg school and
         after 3 year i got in primery school. and i learnt their until i finish
@@ -50,8 +78,9 @@
         9 and 10 , wheh i was 10 there was matric and i scored strait A , and i
         got in woldiya priparatory school and i learn 11 & 12, and after i
         finished i joined Addis Ababa university and know i am a 3rd year
-        software engineering student.
-      </p>
+        software engineering student.</p>
+      </div>
+      <div class=" p-4 card bg-secondary text-white col-10 col-md-3">
       <h2>Hobbies</h2>
       <p>
         I dream of living a happy and fulfilling life, with a balance between
@@ -63,11 +92,13 @@
         proficient and creative software engineer, who can design and develop
         innovative and useful applications for various domains and platforms.
       </p>
-
+    </div>
+      
+      <div class=" p-4 card bg-info col-10 col-md-3"> 
       <h2>Skills</h2>
       <ul>
         <li>
-          <strong>hard skill</strong>
+          <strong class="text-warning">hard skill</strong>
           <p>
             my hard skill is I know three programing languges python, java and
             javscripit, and i am good at data structure and web develpoment and
@@ -77,7 +108,7 @@
           </p>
         </li>
         <li>
-          <strong>soft skill</strong>
+          <strong class="text-warning">soft skill</strong>
           <p>
             My soft skill is that I have learned networking and I have developed
             some networking skills. For example, I know about cables and I know
@@ -86,7 +117,10 @@
           </p>
         </li>
       </ul>
-      <h2>Experience</h2>
+    </div>
+
+      <div class=" p-4 card bg-gradient col-10 col-md-2">
+        <h2>Experience</h2>
       <p>
         in <strong>Life</strong> i have lot of Experience just like
         <em>Communication</em> and <em> argumentation</em> are two important
@@ -100,42 +134,48 @@
         participating in debates, joining clubs, volunteering, and working in
         teams. I am always eager to apply and enhance these skills in new
         challenges and opportunities.
-      </p>
+      </p></div>
+      
     </div>
-    <section id="footer">
-      <div class="footer container">
-        <div class="brand">
-          <h3><span>B</span>iniyam <span>A</span>ssefa</h3>
-        </div>
-        <div class="social-icon">
-          <div class="social-item">
-            <a href="Biniyam_Assefa"
-              ><img
-                src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
-                alt="facebook"
-              >
-              facebook</a
-            >
-          </div>
-          <div class="social-item">
-            <a href="binyamasseafa648"
-              ><img
-                src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
-                alt="instagram"
-              >instagram</a
-            >
-          </div>
-          <div class="social-item">
-            <a href="https://t.me/Binimerci777"
-              ><img
-                src="https://img.icons8.com/?size=80&id=112159&format=png"
-                alt="telegram"
-              >telegram</a
-            >
-          </div>
-        </div>
-        <p>Copyright © 2023 Biniyam. All rights reserved</p>
+
+    <section class=" bg-dark ">
+      <div class="brand">
+        <h3 class="text-white text-center"><span class="text-warning">B</span>iniyam <span class="text-warning">A</span>ssefa</h3>
       </div>
+      <div class="d-flex justify-content-center ">
+        <div class="social-item">
+          <a href="Biniyam_Assefa"
+            ><img
+              src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
+              alt="facebook"
+            >
+            facebook</a
+          >
+        </div>
+        <div class="social-item">
+          <a href="binyamasseafa648"
+            ><img
+              src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+              alt="instagram"
+            >instagram</a
+          >
+        </div>
+        <div class="social-item">
+          <a href="https://t.me/Binimerci777"
+            ><img
+              src="https://img.icons8.com/?size=80&id=112159&format=png"
+              alt="telegram"
+            >telegram</a
+          >
+        </div>
+      </div>
+        <div>
+        <p  class="text-white text-center bg-dark mb-0">Copyright © 2023 Biniyam. All rights reserved</p>
+    
+       </div>
+  
+    
     </section>
+    <script src="../css/bootstrap.bundle.js"></script>
   </body>
 </html>

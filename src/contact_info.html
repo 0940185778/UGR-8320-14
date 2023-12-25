@@ -3,16 +3,36 @@
   <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="../css/style.css">
     <title>contact info</title>
   </head>
-  <body>
-    <section id="contact">
-      <div class="contact container">
+  <body class=" bg-black">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a href="#" class="navbar-brand"><img src="img/download.webp" alt="portfolio logo" class="logo" ></a>
+          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#btn" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse text-white" id="btn">
+          <ul class="navbar-nav ms-auto p-4 ">
+            <li class="navbar-item p-3"><a class="text-white text-center nav-link" href="index.html">HOME</a></li>
+            <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="about_me.html">ABOUT ME</a></li>
+            <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="travel.html">TRAVEL</a></li>
+            <li class="navbar-item p-3"><a class="text-white nav-link text-center" href="voluntary_activity.html">VOLUNTARY ACIVITY</a></li>
+            <li class="navbar-item p-3"  ><a class="text-white nav-link text-center" href="contact_info.html">CONTACT INFO</a></li>
+          </ul> 
+      </div>
+      </div>
+      </nav>
+    </header>
+    <section>
         <div>
-          <h1 class="section-title">Contact <span>info</span></h1>
+          <h1 class="text-center text-white p-5">Contact <span class="text-warning">info</span></h1>
         </div>
-        <div class="contact-items">
-          <div class="contact-item">
+        <div class="d-flex flex-wrap gap-4 justify-content-center p-4">
+          <div class="d-flex card col-10 col-lg-3 bg-warning flex-column">
             <div class="icon">
               <img
                 src="https://img.icons8.com/bubbles/100/000000/phone.png"
@@ -25,7 +45,7 @@
               <h2>+251704158860</h2>
             </div>
           </div>
-          <div class="contact-item">
+          <div class="d-flex card col-10 col-lg-4  bg-warning">
             <div class="icon">
               <img
                 src="https://img.icons8.com/bubbles/100/000000/new-post.png"
@@ -38,7 +58,7 @@
               <h2>biniyam.assefa@aait.edu.et</h2>
             </div>
           </div>
-          <div class="contact-item">
+          <div class="d-flex card col-10 col-lg-3  p-5 bg-warning">
             <div class="icon">
               <img
                 src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
@@ -51,42 +71,46 @@
             </div>
           </div>
         </div>
-      </div>
     </section>
-    <section id="footer">
-      <div class="footer container">
-        <div class="brand">
-          <h3><span>B</span>iniyam <span>A</span>ssefa</h3>
-        </div>
-        <div class="social-icon">
-          <div class="social-item">
-            <a href="Biniyam_Assefa"
-              ><img
-                src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
-                alt="facebook"
-              >
-              facebook</a
-            >
-          </div>
-          <div class="social-item">
-            <a href="binyamasseafa648"
-              ><img
-                src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
-                alt="instagram"
-              >instagram</a
-            >
-          </div>
-          <div class="social-item">
-            <a href="https://t.me/Binimerci777"
-              ><img
-                src="https://img.icons8.com/?size=80&id=112159&format=png"
-                alt="telegram"
-              >telegram</a
-            >
-          </div>
-        </div>
-        <p>Copyright © 2023 Biniyam. All rights reserved</p>
+
+    <section class=" bg-dark ">
+      <div class="brand">
+        <h3 class="text-white text-center"><span class="text-warning">B</span>iniyam <span class="text-warning">A</span>ssefa</h3>
       </div>
+      <div class="d-flex justify-content-center ">
+        <div class="social-item">
+          <a href="Biniyam_Assefa"
+            ><img
+              src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
+              alt="facebook"
+            >
+            facebook</a
+          >
+        </div>
+        <div class="social-item">
+          <a href="binyamasseafa648"
+            ><img
+              src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+              alt="instagram"
+            >instagram</a
+          >
+        </div>
+        <div class="social-item">
+          <a href="https://t.me/Binimerci777"
+            ><img
+              src="https://img.icons8.com/?size=80&id=112159&format=png"
+              alt="telegram"
+            >telegram</a
+          >
+        </div>
+      </div>
+        <div>
+        <p  class="text-white text-center bg-dark mb-0">Copyright © 2023 Biniyam. All rights reserved</p>
+    
+       </div>
+  
+    
     </section>
+    <script src="../css/bootstrap.bundle.js"></script>
   </body>
 </html>
